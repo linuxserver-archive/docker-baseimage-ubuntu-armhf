@@ -21,6 +21,9 @@ RUN \
 	/config \
 	/defaults
 
+# copy sources
+COPY sources.list /etc/apt/
+
 # install packages
 RUN \
  apt-get update && \
