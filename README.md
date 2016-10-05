@@ -1,6 +1,6 @@
 ![https://linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)
 
-[Dockerfile](https://github.com/linuxserver/docker-baseimage-xenial/blob/master/Dockerfile)
+[Dockerfile](https://github.com/linuxserver/docker-baseimage-xenial-armhf/blob/master/Dockerfile)
 
 ### This base container is not aimed at public consumption. It exists to serve as a single endpoint for LinuxServer.io containers and is based upon [Ubuntu Xenial ARMHF](https://hub.docker.com/_/ubuntu/)
 
