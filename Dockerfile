@@ -3,7 +3,7 @@ MAINTAINER sparklyballs
 
 # set version for s6 overlay
 ARG OVERLAY_VERSION="v1.18.1.5"
-ARG OVERLAY_ARCH="amd64"
+ARG OVERLAY_ARCH="armhf"
 
 # set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
