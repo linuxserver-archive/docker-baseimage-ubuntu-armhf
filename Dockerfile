@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu:16.04
+FROM lsiobase/xenial-root-armhf
 MAINTAINER sparklyballs
 
 # set version for s6 overlay
