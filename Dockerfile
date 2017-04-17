@@ -24,7 +24,8 @@ RUN \
 
 # install packages
  apt-get install -y \
-	curl && \
+	curl \
+	tzdata && \
 
 # generate locale
  locale-gen en_US.UTF-8 && \
