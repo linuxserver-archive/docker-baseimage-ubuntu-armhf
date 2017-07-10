@@ -7,7 +7,7 @@
 
 [Dockerfile](https://github.com/linuxserver/docker-baseimage-xenial-armhf/blob/master/Dockerfile)
 
-[![](https://images.microbadger.com/badges/image/lsiobase/xenial.armhf.svg)](https://microbadger.com/images/lsiobase/xenial.armhf "Get your own image badge on microbadger.com")[![Build Status](http://jenkins.linuxserver.io:8080/job/Dockers/job/BaseImages-armhf/job/lsiobase-xenial.armhf/badge/icon)](http://jenkins.linuxserver.io:8080/job/Dockers/job/BaseImages-armhf/job/lsiobase-xenial.armhf/)
+[![](https://images.microbadger.com/badges/image/lsiobase/xenial.armhf.svg)](https://microbadger.com/images/lsiobase/xenial.armhf "Get your own image badge on microbadger.com")
 
 ### This base container is not aimed at public consumption. It exists to serve as a single endpoint for LinuxServer.io containers and is based upon [Ubuntu Xenial ARMHF](https://hub.docker.com/_/ubuntu/)
 
