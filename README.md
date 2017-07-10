@@ -9,7 +9,7 @@
 
 [![](https://images.microbadger.com/badges/image/lsiobase/xenial.armhf.svg)](https://microbadger.com/images/lsiobase/xenial.armhf "Get your own image badge on microbadger.com")
 
-### This base container is not aimed at public consumption. It exists to serve as a single endpoint for LinuxServer.io containers and is based upon [Ubuntu Xenial ARMHF](https://hub.docker.com/_/ubuntu/)
+### This base container is not aimed at public consumption. It exists to serve as a single endpoint for LinuxServer.io containers and is based upon [Ubuntu Xenial ARM64](https://hub.docker.com/_/ubuntu/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
 
 If you want to comment\contribute to this image, are looking for support on any of our other work , or are curious about us in general, check out the following.
 
