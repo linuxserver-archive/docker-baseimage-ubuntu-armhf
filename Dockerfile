@@ -2,7 +2,7 @@ FROM lsiobase/xenial-root-armhf
 MAINTAINER sparklyballs
 
 # set version for s6 overlay
-ARG OVERLAY_VERSION="v1.21.2.2"
+ARG OVERLAY_VERSION="v1.21.4.0"
 ARG OVERLAY_ARCH="armhf"
 
 # set environment variables
