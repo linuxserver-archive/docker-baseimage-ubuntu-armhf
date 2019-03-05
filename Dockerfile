@@ -15,8 +15,8 @@ TERM="xterm"
 # copy sources
 COPY sources.list /etc/apt/
 
-# install apt-utils and locales
 RUN \
+ echo "**** install apt-utils and locales ****" && \
  apt-get update && \
  apt-get install -y \
 	apt-utils \
