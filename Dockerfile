@@ -2,7 +2,7 @@ FROM lsiobase/bionic-root-armhf
 MAINTAINER sparklyballs
 
 # set version for s6 overlay
-ARG OVERLAY_VERSION="v1.21.8.0"
+ARG OVERLAY_VERSION="v1.22.0.0"
 ARG OVERLAY_ARCH="armhf"
 
 # set environment variables
@@ -21,33 +21,27 @@ RUN \
  apt-get install -y \
 	apt-utils \
 	locales && \
-
-# install packages
+ echo "**** install packages ****" && \
  apt-get install -y \
 	curl \
 	tzdata && \
-
-# generate locale
+ echo "**** generate locale ****" && \
  locale-gen en_US.UTF-8 && \
-
-# add s6 overlay
+ echo "**** add s6 overlay ****" && \
  curl -o \
  /tmp/s6-overlay.tar.gz -L \
 	"https://github.com/just-containers/s6-overlay/releases/download/${OVERLAY_VERSION}/s6-overlay-${OVERLAY_ARCH}.tar.gz" && \
  tar xfz \
 	/tmp/s6-overlay.tar.gz -C / && \
-
-# create abc user
+ echo "**** create abc user ****" && \
  useradd -u 911 -U -d /config -s /bin/false abc && \
  usermod -G users abc && \
-
-# make our folders
+ echo "**** make our folders ****" && \
  mkdir -p \
 	/app \
 	/config \
 	/defaults && \
-
-# cleanup
+ echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
 	/tmp/* \
